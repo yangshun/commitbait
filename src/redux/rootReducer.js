@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
 import { routeReducer as router } from 'react-router-redux'
-import counter from './modules/counter'
+import commitMessage from './modules/commitMessage'
 
 export default combineReducers({
-  counter,
+  commitMessage,
   router
 })

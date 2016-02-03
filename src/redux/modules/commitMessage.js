@@ -31,7 +31,7 @@ export default handleActions({
     return Object.assign({}, state, {
       [payload.type]: payload.value
     })
-  },
+  }
 }, {
   message: generate(),
   type: 'ANY',

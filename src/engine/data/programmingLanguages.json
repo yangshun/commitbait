@@ -1,0 +1,16 @@
+{
+  "C": ["C"],
+  "C++": ["C++"],
+  "Go": ["GO"],
+  "Haskell": ["HASKELL"],
+  "Java": ["JAVA"],
+  "JavaScript": ["JAVASCRIPT"],
+  "Lisp": ["LISP"],
+  "Objective-C": ["OBJECTIVE-C"],
+  "OCaml": ["OCAML"],
+  "Python": ["PYTHON"],
+  "Ruby": ["RUBY"],
+  "Scala": ["SCALA"],
+  "Scheme": ["SCHEME"],
+  "Swift": ["SWIFT"]
+}

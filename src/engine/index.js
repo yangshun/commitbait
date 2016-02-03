@@ -1,5 +1,5 @@
 var fsmGenerator = require('./fsm')
-var data = require('./data')
+import variants from './variants'
 
 const defaultOptions = {
   type: 'ANY',
@@ -30,7 +30,6 @@ export function generate (options = defaultOptions) {
 }
 
 function initialise () {
-  var variants = data.variants
   var fsm = new fsmGenerator.FSM()
   for (var i = 0; i < variants.length; i++) {
     var startState = variants[i]

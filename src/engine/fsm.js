@@ -25,10 +25,11 @@ FSM.prototype = {
     var currState = this.startStates[index]
     var result = ''
     while (currState.type !== 'end') {
-      result += ' ' + currState.getKeyword()
+      result += ['.', ',', '!', '?'].indexOf(currState.getKeyword()[0]) > -1 ? '' : ' '
+      result += currState.getKeyword()
       currState = currState.next
     }
     result += ` ${currState.getKeyword()}`
-    return result
+    return `${result}!`
   }
 }

@@ -1,3 +1,6 @@
+var fsmGenerator = require('./fsm')
+var data = require('./data')
+
 const defaultOptions = {
   type: 'ANY',
   language: 'ANY',
@@ -22,5 +25,16 @@ export const STACKS = [
 ]
 
 export function generate (options = defaultOptions) {
-  return `A commit message of type: ${options.type}, language: ${options.language}, framework: ${options.framework}, stack: ${options.stack}.`
+  var fsm = initialise()
+  return fsm.run()
+}
+
+function initialise () {
+  var variants = data.variants
+  var fsm = new fsmGenerator.FSM()
+  for (var i = 0; i < variants.length; i++) {
+    var startState = variants[i]
+    fsm.addStartState(startState)
+  }
+  return fsm
 }

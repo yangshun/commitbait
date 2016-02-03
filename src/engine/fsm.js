@@ -30,6 +30,6 @@ FSM.prototype = {
       currState = currState.next
     }
     result += ` ${currState.getKeyword()}`
-    return `${result}!`
+    return `${result}.`
   }
 }

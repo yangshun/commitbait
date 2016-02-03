@@ -1,0 +1,10 @@
+{
+  "Angular": ["ANGULAR"],
+  "Backbone": ["BACKBONE"],
+  "Bootstrap": ["BOOTSTRAP"],
+  "Django": ["DJANGO"],
+  "jQuery": ["JQUERY"],
+  "Node": ["NODE"],
+  "Rails": ["RAILS"],
+  "React": ["REACT"]
+}

@@ -13,11 +13,13 @@ export const TYPES = [
 ]
 
 export const LANGUAGES = [
-  'ANY', 'SWIFT', 'OBJECTIVE-C', 'RUBY', 'PYTHON', 'JAVASCRIPT', 'CSS', 'HTML', 'JAVA', 'C++', 'PHP', 'GO'
+  'ANY', 'SWIFT', 'OBJECTIVE-C', 'RUBY', 'PYTHON', 'JAVASCRIPT',
+  'CSS', 'HTML', 'JAVA', 'C++', 'PHP', 'GO'
 ]
 
 export const FRAMEWORKS = [
-  'ANY', 'RAILS', 'DJANGO', 'NODE', 'JQUERY', 'ANGULAR', 'REACT', 'BACKBONE', 'BOOTSTRAP'
+  'ANY', 'RAILS', 'DJANGO', 'NODE', 'JQUERY',
+  'ANGULAR', 'REACT', 'BACKBONE', 'BOOTSTRAP'
 ]
 
 export const STACKS = [

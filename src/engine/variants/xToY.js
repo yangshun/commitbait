@@ -1,6 +1,6 @@
-const programmingLanguages = Object.keys(require('../data/programmingLanguages.json'))
-const frameworks = Object.keys(require('../data/frameworks.json'))
-const positiveStates = Object.keys(require('../data/positiveStates.json'))
+const programmingLanguages = require('../data/programmingLanguages.json').data
+const frameworks = require('../data/frameworks.json').data
+const positiveStates = require('../data/positiveStates.json').data
 
 var xToY = [
   ['First you\'ll be'],

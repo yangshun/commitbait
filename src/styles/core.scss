@@ -12,12 +12,82 @@
   body {
     margin: 0;
     padding: 0;
-    height: 100%;
   }
 
   *,
   *:before,
   *:after {
     box-sizing: inherit;
+  }
+
+  body {
+    font-family: "freight-sans-pro";
+    font-weight: 600;
+  }
+
+  $theme-color: #29a0e3;
+
+  a {
+    color: $theme-color;
+    text-decoration: none;
+  }
+
+  .title {
+    color: #666;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  .content {
+    max-width: 768px;
+    margin: 40px auto;
+    padding: 30px;
+
+    @media(max-width: 768px) {
+      margin: 20px auto;
+      padding-top: 10px;
+    }
+  }
+
+  .message {
+    font-size: 48px;
+    margin-top: 20px;
+    min-height: 256px;
+
+    @media(max-width: 408px) {
+      font-size: 36px;
+    }
+  }
+
+  hr {
+    border: 1px solid #666;
+  }
+
+  .generate-btn {
+    $height: 50px;
+
+    background-color: transparent;
+    border: 2px solid $theme-color;
+    border-radius: $height / 2;
+    color: $theme-color;
+    font-weight: 700;
+    height: $height;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+
+    &:hover {
+      background-color: $theme-color;
+      color: #fff;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .blurb {
+
   }
 }

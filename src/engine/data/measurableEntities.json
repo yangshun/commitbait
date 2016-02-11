@@ -1,9 +1,11 @@
 {
-  "app performance": [],
-  "database performance": ["DATABASE"],
-  "new startup": [],
-  "page loading time": ["FRONT_END"],
-  "server uptime": ["PLATFORM"],
-  "server performance": ["BACK_END"],
-  "web service": []
+  "data": [
+    "app performance",
+    "database performance",
+    "new startup",
+    "page loading time",
+    "server uptime",
+    "server performance",
+    "web service"
+  ]
 }

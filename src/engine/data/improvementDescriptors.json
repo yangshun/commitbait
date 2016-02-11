@@ -1,11 +1,13 @@
 {
-  "accelerate": [],
-  "boost": [],
-  "improve": [],
-  "level up": [],
-  "optimize": [],
-  "power": [],
-  "revolutionize": [],
-  "shake up": [],
-  "transform": []
+  "data": [
+    "accelerate",
+    "boost",
+    "improve",
+    "level up",
+    "optimize",
+    "power",
+    "revolutionize",
+    "shake up",
+    "transform"
+  ]
 }

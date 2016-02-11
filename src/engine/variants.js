@@ -1,9 +1,9 @@
 const fsmHelper = require('./fsm')
 
-import list from './variants/list';
-import why from './variants/why';
-import xToY from './variants/xToY';
-import howTo from './variants/howTo';
+import list from './variants/list'
+import why from './variants/why'
+import xToY from './variants/xToY'
+import howTo from './variants/howTo'
 
 function constructStateChain (states) {
   var startState = new fsmHelper.State('start', states[0])

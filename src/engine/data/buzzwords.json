@@ -1,16 +1,18 @@
 {
-  "artificial intelligence": [],
-  "big data": [],
-  "closures": [],
-  "filter": [],
-  "functional programming": [],
-  "hadoop": [],
-  "machine learning": [],
-  "map": [],
-  "mapreduce": [],
-  "monads": [],
-  "reactive programming": [],
-  "reduce": [],
-  "Spark": [],
-  "tail recursion": []
+  "data": [
+    "artificial intelligence",
+    "augmented reality",
+    "big data",
+    "closures",
+    "filter",
+    "functional programming",
+    "hadoop",
+    "machine learning",
+    "MapReduce",
+    "monads",
+    "reactive programming",
+    "Spark",
+    "tail recursion",
+    "virtual reality"
+  ]
 }

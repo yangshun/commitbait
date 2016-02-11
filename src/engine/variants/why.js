@@ -1,7 +1,7 @@
-const improvementDescriptors = Object.keys(require('../data/improvementDescriptors.json'))
-const buzzwords = Object.keys(require('../data/buzzwords.json'))
-const measurableEntities = Object.keys(require('../data/measurableEntities.json'))
-const mindblowingSentences = Object.keys(require('../data/mindblowingSentences.json'))
+const improvementDescriptors = require('../data/improvementDescriptors.json').data
+const buzzwords = require('../data/buzzwords.json').data
+const measurableEntities = require('../data/measurableEntities.json').data
+const mindblowingSentences = require('../data/mindblowingSentences.json').data
 
 const why = [
   ['Why', 'Reasons'],

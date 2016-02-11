@@ -1,19 +1,21 @@
 {
-  "C": ["C"],
-  "CSS": ["CSS"],
-  "C++": ["C++"],
-  "Go": ["GO"],
-  "Haskell": ["HASKELL"],
-  "HTML": ["HTML"],
-  "Java": ["JAVA"],
-  "JavaScript": ["JAVASCRIPT"],
-  "Lisp": ["LISP"],
-  "Objective-C": ["OBJECTIVE-C"],
-  "OCaml": ["OCAML"],
-  "PHP": ["PHP"],
-  "Python": ["PYTHON"],
-  "Ruby": ["RUBY"],
-  "Scala": ["SCALA"],
-  "Scheme": ["SCHEME"],
-  "Swift": ["SWIFT"]
+  "data": [
+    "C",
+    "CSS",
+    "C++",
+    "Go",
+    "Haskell",
+    "HTML",
+    "Java",
+    "JavaScript",
+    "Lisp",
+    "Objective-C",
+    "OCaml",
+    "PHP",
+    "Python",
+    "Ruby",
+    "Scala",
+    "Scheme",
+    "Swift"
+  ]
 }

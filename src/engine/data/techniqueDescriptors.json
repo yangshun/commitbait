@@ -1,13 +1,15 @@
 {
-  "changes": [],
-  "facts": [],
-  "fixes": [],
-  "functions": [],
-  "lines of code": [],
-  "quick changes": [],
-  "tips": [],
-  "tricks": [],
-  "uses of anonymous functions": ["JAVASCRIPT"],
-  "uses of design patterns": [],
-  "ways": []
+  "data": [
+    "changes",
+    "facts",
+    "fixes",
+    "functions",
+    "lines of code",
+    "quick changes",
+    "tips",
+    "tricks",
+    "uses of anonymous functions",
+    "uses of design patterns",
+    "ways"
+  ]
 }

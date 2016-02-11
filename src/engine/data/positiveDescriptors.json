@@ -1,10 +1,12 @@
 {
-  "amazing": [],
-  "beautiful": [],
-  "charming": [],
-  "inconceivable": [],
-  "remarkable": [],
-  "spectacular": [],
-  "strange": [],
-  "weird": []
+  "data": [
+    "amazing",
+    "beautiful",
+    "charming",
+    "inconceivable",
+    "remarkable",
+    "spectacular",
+    "strange",
+    "weird"
+  ]
 }

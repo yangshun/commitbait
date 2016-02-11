@@ -1,10 +1,12 @@
 {
-  "amazed": [],
-  "astonished": [],
-  "bowled over": [],
-  "excited": [],
-  "inspired": [],
-  "made speechless": [],
-  "stunned": [],
-  "swooned": []
+  "data": [
+    "amazed",
+    "astonished",
+    "bowled over",
+    "excited",
+    "inspired",
+    "made speechless",
+    "stunned",
+    "swooned"
+  ]
 }

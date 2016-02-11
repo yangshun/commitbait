@@ -33,7 +33,9 @@
   }
 
   .title {
-    color: #666;
+    .subject {
+      color: #666;
+    }
     font-weight: 900;
     font-size: 24px;
     text-transform: uppercase;
@@ -41,7 +43,7 @@
 
   .content {
     max-width: 768px;
-    margin: 40px auto;
+    margin: 30px auto;
     padding: 30px;
 
     @media(max-width: 768px) {
@@ -50,10 +52,13 @@
     }
   }
 
+  .message-container {
+    min-height: 300px;
+  }
+
   .message {
     font-size: 48px;
     margin-top: 20px;
-    min-height: 256px;
 
     @media(max-width: 408px) {
       font-size: 36px;
@@ -75,7 +80,7 @@
     height: $height;
     padding: 10px 50px;
     text-transform: uppercase;
-    transition: all 0.3s linear;
+    transition: background-color 0.3s linear, color 0.3s linear;;
 
     &:hover {
       background-color: $theme-color;
@@ -87,7 +92,49 @@
     }
   }
 
-  .blurb {
+  .meta {
+    margin: 10px 0;
 
+    &.loading {
+      opacity: 0;
+    }
+
+    br {
+      display: none;
+    }
+
+    @media(max-width: 568px) {
+      font-size: 12px;
+
+      br {
+        display: inherit;
+      }
+    }
+  }
+
+  .commit {
+    float: right;
+
+    .commit-text {
+      color: #999;
+    }
+
+    @media(max-width: 568px) {
+      float: none;
+    }
+  }
+
+  .share {
+    float: right;
+  }
+
+  .twitter-share-button {
+    float: right;
+    margin-left: 10px;
+  }
+
+  .fb-share-button {
+    float: right;
+    margin-top: -1px;
   }
 }

@@ -57,9 +57,17 @@ export class HomeView extends Component {
             Bait me again
           </button>
           <br/><br/><br/>
-          <p>Inspired by this <a target='_blank' href='http://www.commitstrip.com/en/2014/08/07/our-cto-has-discovered-an-incredible-way-of-making-developers-read-his-commit-messages-you-wont-even-believe-how-he-did-it/'>
-            CommitStrip comic</a>. Made by <a href='https://github.com/yangshun' target='_blank'>Tay Yang Shun</a> and <a href='https://github.com/karenang' target='_blank'>Karen Ang</a>.
+          <p>Inspired by this <a href='http://www.commitstrip.com/en/2014/08/07/our-cto-has-discovered-an-incredible-way-of-making-developers-read-his-commit-messages-you-wont-even-believe-how-he-did-it/' target='_blank'>
+            CommitStrip comic</a> and <a href='https://github.com/cmcculloh/commit-clickbait' target='_blank'>commit-clickbait</a>. Made by <a href='https://github.com/yangshun' target='_blank'>Tay Yang Shun</a> and <a href='https://github.com/karenang' target='_blank'>Karen Ang</a>.
           </p>
+
+          <div>
+            <a className='twitter-share-button' href='https://twitter.com/share' data-url='http://yangshun.im/commitbait' data-text='One weird trick to get people to read your commit messages!'>Tweet</a>
+            <div className='fb-share-button' data-href='http://yangshun.im/commitbait' data-layout='button'/>
+            <span className='source'>
+              Source on <a href='https://github.com/yangshun/commitbait' target='_blank'>Github</a>. Contributions are welcome! <br/>
+            </span>
+          </div>
         </div>
       </div>
     )

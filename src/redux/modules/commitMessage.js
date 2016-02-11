@@ -1,6 +1,8 @@
 import { createAction, handleActions } from 'redux-actions'
+import sample from 'lodash/sample'
 import { generate } from 'engine'
 import hashCode from 'redux/utils/hashCode'
+const branches = require('engine/data/branches.json').data;
 
 // ------------------------------------
 // Constants
@@ -34,10 +36,12 @@ export default handleActions({
   [GENERATE_COMMIT_MESSAGE]: (state, { payload }) => {
     return Object.assign({}, state, {
       message: generate(),
+      branch: sample(branches),
       hash: hashCode(HASH_LENGTH)
     })
   }
 }, {
-  message: generate(HASH_LENGTH),
-  hash: hashCode(40)
+  message: generate(),
+  branch: 'master',
+  hash: hashCode(HASH_LENGTH)
 })

@@ -1,0 +1,16 @@
+{
+  "data": [
+    "bugfix",
+    "develop",
+    "documentation",
+    "examples",
+    "feature",
+    "gh-pages",
+    "justforlulz",
+    "master",
+    "patch",
+    "refactor",
+    "release",
+    "0.14-stable"
+  ]
+}

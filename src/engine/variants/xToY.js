@@ -23,8 +23,9 @@ var xToY = [
     'by',
   ],
   [
+    'these two lines of code',
+    'this amazing function',
     'this one-liner',
-    'these 2 lines of code',
     'this simple trick',
   ],
   [

@@ -5,16 +5,16 @@ const mindblowingSentences = require('../data/mindblowingSentences.json').data;
 
 const why = [
   [
-    'Why',
     'Reasons',
+    'Why',
   ],
   [
     'you',
   ],
   [
-    'should be using',
     'have to use',
     'must use',
+    'should be using',
   ],
   buzzwords,
   [

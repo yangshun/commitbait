@@ -18,7 +18,7 @@ export const delayedGeneration = () => {
   return (dispatch, getState) => {
     setTimeout(() => {
       dispatch(generateCommitMessage());
-    }, 1000);
+    }, Math.floor((Math.random() * 500) + 500));
   };
 };
 

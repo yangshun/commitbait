@@ -9,7 +9,7 @@ import { actions as commitMessageActions } from '../../redux/modules/commitMessa
 // the component can be tested w/ and w/o being connected.
 // See: http://rackt.github.io/redux/docs/recipes/WritingTests.html
 const mapStateToProps = (state) => ({
-  ...state.commitMessage
+  ...state.commitMessage,
 });
 
 export class HomeView extends Component {
@@ -17,19 +17,19 @@ export class HomeView extends Component {
     message: PropTypes.string.isRequired,
     branch: PropTypes.string.isRequired,
     hash: PropTypes.string.isRequired,
-    delayedGeneration: PropTypes.func.isRequired
+    delayedGeneration: PropTypes.func.isRequired,
   };
 
   constructor (props) {
     super(props);
     this.state = {
-      loading: false
+      loading: false,
     };
   }
 
   componentWillReceiveProps () {
     this.setState({
-      loading: false
+      loading: false,
     });
   }
 
@@ -50,7 +50,7 @@ export class HomeView extends Component {
           <button className='generate-btn'
             onClick={() => {
               this.setState({
-                loading: true
+                loading: true,
               });
               this.props.delayedGeneration();
             }}

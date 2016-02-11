@@ -21,7 +21,7 @@ function CoreLayout ({ children }) {
 }
 
 CoreLayout.propTypes = {
-  children: PropTypes.element
+  children: PropTypes.element,
 };
 
 export default CoreLayout;

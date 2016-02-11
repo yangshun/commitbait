@@ -4,16 +4,31 @@ const measurableEntities = require('../data/measurableEntities.json').data;
 const mindblowingSentences = require('../data/mindblowingSentences.json').data;
 
 const why = [
-  ['Why', 'Reasons'],
-  ['you'],
-  ['should be using', 'have to use', 'must use'],
+  [
+    'Why',
+    'Reasons',
+  ],
+  [
+    'you',
+  ],
+  [
+    'should be using',
+    'have to use',
+    'must use',
+  ],
   buzzwords,
-  ['to'],
+  [
+    'to',
+  ],
   improvementDescriptors,
-  ['your'],
+  [
+    'your',
+  ],
   measurableEntities,
-  ['.'],
-  mindblowingSentences
+  [
+    '.',
+  ],
+  mindblowingSentences,
 ];
 
 export default why;

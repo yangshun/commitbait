@@ -8,7 +8,7 @@ State.prototype = {
   getKeyword: function () {
     var index = Math.floor(Math.random() * this.data.length);
     return this.data[index];
-  }
+  },
 };
 
 export function FSM () {
@@ -31,5 +31,5 @@ FSM.prototype = {
     }
     result += ` ${currState.getKeyword()}`;
     return `${result}.`;
-  }
+  },
 };

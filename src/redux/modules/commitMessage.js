@@ -24,7 +24,7 @@ export const delayedGeneration = () => {
 
 export const actions = {
   generateCommitMessage,
-  delayedGeneration
+  delayedGeneration,
 };
 
 const HASH_LENGTH = 40;
@@ -37,11 +37,11 @@ export default handleActions({
     return Object.assign({}, state, {
       message: generate(),
       branch: sample(branches),
-      hash: hashCode(HASH_LENGTH)
+      hash: hashCode(HASH_LENGTH),
     });
-  }
+  },
 }, {
   message: generate(),
   branch: 'master',
-  hash: hashCode(HASH_LENGTH)
+  hash: hashCode(HASH_LENGTH),
 });

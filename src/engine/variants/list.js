@@ -10,13 +10,27 @@ const list = [
   numericalQuantities,
   positiveDescriptors,
   techniqueDescriptors,
-  ['to', 'which will'],
+  [
+    'to',
+    'which will',
+  ],
   extremeDescriptors,
   improvementDescriptors,
-  ['your use of', 'the way you think about', 'the way you code in',
-    'the way you do testing in'],
-  [...programmingLanguages, ...frameworks],
-  ['forever', 'like never before']
+  [
+    'the way you code in',
+    'the way you do testing in',
+    'the way you think about',
+    'your use of',
+  ],
+  [
+    ...programmingLanguages,
+    ...frameworks,
+  ],
+  [
+    'forever',
+    'like never before',
+    'permanently',
+  ],
 ];
 
 export default list;

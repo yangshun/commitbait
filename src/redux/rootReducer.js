@@ -4,5 +4,5 @@ import commitMessage from './modules/commitMessage';
 
 export default combineReducers({
   commitMessage,
-  router
+  router,
 });

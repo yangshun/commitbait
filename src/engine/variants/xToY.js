@@ -1,6 +1,6 @@
-const programmingLanguages = require('../data/programmingLanguages.json').data
-const frameworks = require('../data/frameworks.json').data
-const positiveStates = require('../data/positiveStates.json').data
+const programmingLanguages = require('../data/programmingLanguages.json').data;
+const frameworks = require('../data/frameworks.json').data;
+const positiveStates = require('../data/positiveStates.json').data;
 
 var xToY = [
   ['First you\'ll be'],
@@ -11,6 +11,6 @@ var xToY = [
   ['this one-liner', 'these 2 lines of code', 'this simple trick'],
   ['in'],
   [...programmingLanguages, ...frameworks]
-]
+];
 
-export default xToY
+export default xToY;

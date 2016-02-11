@@ -1,7 +1,7 @@
-import React, { Component, PropTypes } from 'react'
-import { connect } from 'react-redux'
+import React, { Component, PropTypes } from 'react';
+import { connect } from 'react-redux';
 
-import { actions as commitMessageActions } from '../../redux/modules/commitMessage'
+import { actions as commitMessageActions } from '../../redux/modules/commitMessage';
 
 // We define mapStateToProps where we'd normally use
 // the @connect decorator so the data requirements are clear upfront, but then
@@ -10,7 +10,7 @@ import { actions as commitMessageActions } from '../../redux/modules/commitMessa
 // See: http://rackt.github.io/redux/docs/recipes/WritingTests.html
 const mapStateToProps = (state) => ({
   ...state.commitMessage
-})
+});
 
 export class HomeView extends Component {
   static propTypes = {
@@ -21,16 +21,16 @@ export class HomeView extends Component {
   };
 
   constructor (props) {
-    super(props)
+    super(props);
     this.state = {
       loading: false
-    }
+    };
   }
 
   componentWillReceiveProps () {
     this.setState({
       loading: false
-    })
+    });
   }
 
   render () {
@@ -51,8 +51,8 @@ export class HomeView extends Component {
             onClick={() => {
               this.setState({
                 loading: true
-              })
-              this.props.delayedGeneration()
+              });
+              this.props.delayedGeneration();
             }}
             disabled={this.state.loading}>
             Bait me again
@@ -71,8 +71,8 @@ export class HomeView extends Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default connect(mapStateToProps, commitMessageActions)(HomeView)
+export default connect(mapStateToProps, commitMessageActions)(HomeView);

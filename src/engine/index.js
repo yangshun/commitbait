@@ -1,16 +1,16 @@
-var fsmGenerator = require('./fsm')
-import variants from './variants'
+var fsmGenerator = require('./fsm');
+import variants from './variants';
 
 export function generate () {
-  var fsm = initialise()
-  return fsm.run()
+  var fsm = initialise();
+  return fsm.run();
 }
 
 function initialise () {
-  var fsm = new fsmGenerator.FSM()
+  var fsm = new fsmGenerator.FSM();
   for (var i = 0; i < variants.length; i++) {
-    var startState = variants[i]
-    fsm.addStartState(startState)
+    var startState = variants[i];
+    fsm.addStartState(startState);
   }
-  return fsm
+  return fsm;
 }

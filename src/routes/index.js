@@ -10,8 +10,8 @@ import CoreLayout from 'layouts/CoreLayout/CoreLayout'
 import HomeView from 'views/HomeView/HomeView'
 
 export default (
-  <Route path='/' component={CoreLayout}>
+  <Route path='/commitbait' component={CoreLayout}>
     <IndexRoute component={HomeView} />
-    <Redirect from='*' to='/' />
+    <Redirect from='*' to='/commitbait' />
   </Route>
 )

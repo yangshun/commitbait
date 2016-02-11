@@ -2,7 +2,7 @@ import { createAction, handleActions } from 'redux-actions'
 import sample from 'lodash/sample'
 import { generate } from 'engine'
 import hashCode from 'redux/utils/hashCode'
-const branches = require('engine/data/branches.json').data;
+const branches = require('engine/data/branches.json').data
 
 // ------------------------------------
 // Constants
@@ -27,7 +27,7 @@ export const actions = {
   delayedGeneration
 }
 
-const HASH_LENGTH = 40;
+const HASH_LENGTH = 40
 
 // ------------------------------------
 // Reducer

@@ -37,7 +37,9 @@ export class HomeView extends Component {
     return (
       <div>
         <div className='content'>
-          <h1 className='title'><span className='subject'>Commit</span>bait</h1>
+          <h1 className='title'>
+            <i className='fa fa-terminal'/> <span className='subject'>Commit</span>bait
+          </h1>
           <hr/>
           <div className='message-container'>
             <h2 className='message'>{this.state.loading ? 'Baiting...' : this.props.message}</h2>

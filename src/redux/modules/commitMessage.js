@@ -18,7 +18,7 @@ export const delayedGeneration = () => {
   return (dispatch, getState) => {
     setTimeout(() => {
       dispatch(generateCommitMessage());
-    }, Math.floor((Math.random() * 500) + 500));
+    }, Math.floor((Math.random() * 500) + 500));  // https://uxmag.com/articles/let-your-users-wait
   };
 };
 

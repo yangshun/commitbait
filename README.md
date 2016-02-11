@@ -21,6 +21,8 @@ $ npm install                   # Install Node modules listed in ./package.json 
 $ npm start                     # Compile and launch
 ```
 
+Navigate to `http://localhost:3000/commitbait` to view the page.
+
 Contributing
 ------------
 

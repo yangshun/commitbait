@@ -1,5 +1,6 @@
 import { createAction, handleActions } from 'redux-actions'
 import { generate } from 'engine'
+import hashCode from 'redux/utils/hashCode'
 
 // ------------------------------------
 // Constants
@@ -24,15 +25,19 @@ export const actions = {
   delayedGeneration
 }
 
+const HASH_LENGTH = 40;
+
 // ------------------------------------
 // Reducer
 // ------------------------------------
 export default handleActions({
   [GENERATE_COMMIT_MESSAGE]: (state, { payload }) => {
     return Object.assign({}, state, {
-      message: generate(payload)
+      message: generate(),
+      hash: hashCode(HASH_LENGTH)
     })
   }
 }, {
-  message: generate()
+  message: generate(HASH_LENGTH),
+  hash: hashCode(40)
 })

@@ -15,6 +15,7 @@ const mapStateToProps = (state) => ({
 export class HomeView extends Component {
   static propTypes = {
     message: PropTypes.string.isRequired,
+    hash: PropTypes.string.isRequired,
     delayedGeneration: PropTypes.func.isRequired
   };
 
@@ -35,9 +36,15 @@ export class HomeView extends Component {
     return (
       <div>
         <div className='content'>
-          <h1 className='title'>Commitbait</h1>
+          <h1 className='title'><span className='subject'>Commit</span>bait</h1>
           <hr/>
-          <h2 className='message'>{this.state.loading ? 'Baiting...' : this.props.message}</h2>
+          <div className='message-container'>
+            <h2 className='message'>{this.state.loading ? 'Baiting...' : this.props.message}</h2>
+            <p className={`meta ${this.state.loading ? 'loading' : null}`}>
+              <span className='branch'><i className='fa fa-lg fa-code-fork'/> master</span><br/>
+              <span className='commit'><span className='commit-text'>commit</span> &nbsp; {this.props.hash}</span>
+            </p>
+          </div>
           <br/>
           <button className='generate-btn'
             onClick={() => {

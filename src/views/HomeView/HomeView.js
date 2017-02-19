@@ -61,7 +61,7 @@ export class HomeView extends Component {
           </button>
           <br/><br/><br/>
           <p>Inspired by this <a href='http://www.commitstrip.com/en/2014/08/07/our-cto-has-discovered-an-incredible-way-of-making-developers-read-his-commit-messages-you-wont-even-believe-how-he-did-it/' target='_blank'>
-            CommitStrip comic</a> and <a href='https://github.com/cmcculloh/commit-clickbait' target='_blank'>commit-clickbait</a>. Made by <a href='https://github.com/yangshun' target='_blank'>Tay Yang Shun</a> and <a href='https://github.com/karenang' target='_blank'>Karen Ang</a>.
+            CommitStrip comic</a> and <a href='https://github.com/cmcculloh/commit-clickbait' target='_blank'>commit-clickbait</a>. Made by <a href='https://github.com/yangshun' target='_blank'>@yangshun</a> and <a href='https://github.com/karen' target='_blank'>@karen</a>.
           </p>
 
           <div>

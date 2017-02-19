@@ -12,7 +12,7 @@ import HomePage from 'views/home/HomePage';
 
 const store = configureStore();
 const history = syncHistoryWithStore(useRouterHistory(createHistory)({
-  basename: '/',
+  basename: '/commitbait',
 }), store);
 
 export default function () {

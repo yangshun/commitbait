@@ -1,7 +1,18 @@
-.DS_STORE
-*.log
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# dependencies
 node_modules
 
-dist
+# testing
 coverage
+
+# dll
+dll
+
+# production
+dist
+
+# misc
+.DS_Store
+.env
+npm-debug.log

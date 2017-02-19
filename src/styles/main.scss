@@ -1,0 +1,125 @@
+body {
+  font-family: "freight-sans-pro";
+  font-weight: 600;
+}
+
+$theme-color: #29a0e3;
+
+a {
+  color: $theme-color;
+  text-decoration: none;
+}
+
+button {
+  -webkit-appearance: button;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.title {
+  .subject {
+    color: #666;
+  }
+
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.content {
+  margin: 20px auto;
+  max-width: 768px;
+  padding: 20px;
+
+  @media (max-width: 768px) {
+    margin: 20px auto;
+    padding-top: 10px;
+  }
+}
+
+.message-container {
+  min-height: 300px;
+}
+
+.message {
+  font-size: 48px;
+  margin-top: 20px;
+
+  @media (max-width: 408px) {
+    font-size: 36px;
+  }
+}
+
+hr {
+  border: 1px solid #666;
+}
+
+.generate-btn {
+  $height: 50px;
+
+  background-color: transparent;
+  border: 2px solid $theme-color;
+  border-radius: $height / 2;
+  color: $theme-color;
+  font-weight: 700;
+  height: $height;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  transition: background-color 0.3s linear, color 0.3s linear;
+
+  &:hover {
+    background-color: $theme-color;
+    color: #fff;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.meta {
+  margin: 10px 0;
+
+  &.loading {
+    opacity: 0;
+  }
+
+  br {
+    display: none;
+  }
+
+  @media (max-width: 568px) {
+    font-size: 12px;
+
+    br {
+      display: inherit;
+    }
+  }
+}
+
+.commit {
+  float: right;
+
+  .commit-text {
+    color: #999;
+  }
+
+  @media (max-width: 568px) {
+    float: none;
+  }
+}
+
+.share {
+  float: right;
+}
+
+.twitter-share-button {
+  float: right;
+  margin-left: 10px;
+}
+
+.fb-share-button {
+  float: right;
+  margin-top: -1px;
+}
